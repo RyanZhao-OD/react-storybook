@@ -1,18 +1,18 @@
 import React from 'react';
 
-import Hooks from '@/Hooks/Hooks.js';
+import Demo from '@/Hooks/Demo.js';
 
 export default {
   title: 'Learn/Hooks',
-  component: Hooks,
+  component: Demo,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 };
 
-const Template = (args) => <Hooks {...args} />;
+const Template = (args) => <Demo {...args} />;
 
-export const Demo = Template.bind({});
+export const HooksDemo = Template.bind({});
 // Demo.args = {
 //   primary: true,
 //   label: 'Hooks',
